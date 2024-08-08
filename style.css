@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+:root{
+    --Soft-blue:hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cardBG);
+    padding: 100px;
+}
+main{
+    justify-content: center;
+    width: 350px;
+    background-color: var(--mainBG);
+    border-radius: 16px;
+    background-size:cover;
+    padding-bottom: 20px;
+}
+.img-file img {
+    width: 300px;
+    border-radius: 20px;
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.content-all1{
+    padding: 20px;
+}
+.main-top{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-p{
+    color: var(--line);
+    padding-bottom: 20px; 
+}
+.line{
+    background-color: var(--line);
+    height:1px;
+    margin-bottom: 20px;
+}
+.major-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.flex-box1{
+    display: flex;
+    align-items: center;
+}
+.eth-num{
+    color: cyan;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+.flex-box2{
+    display: flex;
+    align-items: center;
+}
+.days-number{
+    color:var(--line);
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+.flex-box3{
+    display: flex;
+    align-items: center;
+}
+    .owner{
+      padding-left: 20px;
+      color: var(--line);
+    }
+    .name{
+        color: var(--white);
+        padding-left: 5px;
+    }
+    .human-img img{
+        Width: 30px;
+        Border-radius:50px;
+        Border: 1px solid var(--white);
+        }
+        .name:hover {
+          color: var(--Cyan);
+        }
+        .img-file img:hover{
+            color: var(--Cyan);
+        }
