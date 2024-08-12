@@ -30,7 +30,7 @@ main {
 }
 .img-file {
   position: relative;
-  transition: 0.5s ease-in-out;
+  
 }
 .img-file img {
   width: 100%;
